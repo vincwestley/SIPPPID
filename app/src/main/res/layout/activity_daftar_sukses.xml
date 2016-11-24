@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_daftar_sukses"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f3f3"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background">
+
+        <ImageView
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/toolbar"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never"
+        android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f3f3f3"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di PPID Kemendagri"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih telah bergabung dalam Aplikasi \nPejabat Pengelola Informasi dan Dokumentasi \n(PPID) Kementrian Dalam Negeri.\n Anda dapat mendapatkan segala jenis dokumentasi\n dan Informasi Publik, serta dapat mengajukan \n permohonan informasi"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ppid_background"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setelah daftar silahkan cek email Anda,\n Harap aktivasi email Anda dalam waktu 48 jam.\n Jika Anda tidak melakukan aktivasi setelah batas waktu\n tersebut, maka Anda harus mendaftar lagi"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#000"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_biru"
+            android:text="NEXT"
+            android:textColor="#fff"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_apermohonan"
+            android:icon="@drawable/doc"
+            android:title="@string/nav_apermohonan" />
+
+        <item
+            android:id="@+id/nav_permohonan"
+            android:icon="@drawable/request"
+            android:title="@string/nav_permohonan" />
+
+        <!--<&lt;!&ndash;item
+            android:id="@+id/nav_akeberatan"
+            android:icon="@drawable/b"
+            android:title="@string/nav_akeberatan" />&ndash;&gt;-->
+
+        <item
+            android:id="@+id/nav_keberatan"
+            android:icon="@drawable/keberatan"
+            android:title="@string/nav_keberatan" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/nav_logout" />
+    </group>
+
+</menu>

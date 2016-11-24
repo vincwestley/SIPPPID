@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".layout.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/linear_daftar"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:background="#7d94d7">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="150dp"
+                android:id="@+id/img_info"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/img_info"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-thin"
+                android:id="@+id/txt_dip"
+                android:text="Daftar Informasi Publik"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6d84c9"
+        android:orientation="vertical"
+        android:id="@+id/linear_permohonan">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:id="@+id/img_permohonan"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-thin"
+                android:layout_height="wrap_content"
+                android:text="Permohonan Informasi"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#6179bc">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-thin"
+                android:layout_below="@+id/img_pelayanan"
+                android:layout_height="wrap_content"
+                android:text="Laporan Pelayanan Informasi"
+                android:textAlignment="center"
+                android:textColor="#fff"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/img_pelayanan"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

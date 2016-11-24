@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#151a36</color>
+    <color name="colorPrimaryDark">#23313e</color>
+    <color name="background">#293a4a</color>
+    <!--<color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryDark">#23313e</color>-->
+    <color name="colorAccent">#ffff</color>
+    <color name="abumonyet">#ECECEC</color>
+    <color name="sipppid">#032f54</color>
+    <color name="bgDialog">#2a3b4b</color>
+    <color name="white">#ffff</color>
+
+</resources>

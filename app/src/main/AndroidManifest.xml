@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smkn4.bdg.sipppid">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    eeeeee
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="PPID Kemendagri"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".layout.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".layout.DetailActivity" />
+        <activity android:name=".layout.MainActivity" />
+        <activity android:name=".layout.LoginActivity" />
+        <activity android:name=".layout.BerandaActivity" />
+        <activity android:name=".layout.MenuMainActivity" />
+        <activity android:name=".layout.MenuPermohonanActivity" />
+        <activity android:name=".layout.KemendagriPengajuanActivity" />
+        <activity android:name=".layout.LaporanPermohonanActivity" />
+        <activity android:name=".layout.ProfilActivity" />
+        <activity android:name=".layout.PermohonanActivity" />
+        <activity android:name=".layout.KeberatanActivity" />
+        <activity android:name=".layout.WebViewActivity" />
+        <activity android:name=".layout.WebViewSignup" />
+        <activity android:name=".layout.AboutUsActivity" />
+        <activity android:name=".layout.LaporanPelayananActivity" />
+        <activity android:name=".layout.ProfileActivity" />
+        <activity android:name=".layout.SignUpActivity" />
+        <activity android:name=".layout.DaftarSuksesActivity" />
+        <activity android:name=".layout.MenuDIPActivity" />
+        <activity android:name=".layout.ProvinsiPengajuanActivity" />
+        <activity android:name=".layout.KabkotPengajuanActivity" />
+        <activity android:name=".layout.DownloadWebViewActivity"></activity>
+    </application>
+
+</manifest>
